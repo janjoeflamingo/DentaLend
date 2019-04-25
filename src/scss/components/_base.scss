@@ -1,20 +1,15 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
+body, ul {
+ margin: 0;
+ padding: 0;
 }
 
 .a-i-c {
-  display: flex;
-  align-items: center;
+ display: flex;
+ align-items: center;
 }
 
 .wrapper {
-  max-width: 1160px;
-  margin: 0 auto;
-  padding: 0 15px;
+ max-width: 1160px;
+ margin: 0 auto;
+ padding: 0 15px;
 }
