@@ -11,12 +11,11 @@ const browserSync = require('browser-sync').create();
 
 task('webserver', () => {
   browserSync.init({
-    open: false,
+    open: true,
     notify: false,
     server: {
       baseDir: 'dist',
     },
-    browser: ['google chrome'],
   });
 
   browserSync.watch('dist/**/*.*').on('change', browserSync.reload)
