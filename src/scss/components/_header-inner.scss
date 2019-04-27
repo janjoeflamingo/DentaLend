@@ -1,6 +1,5 @@
 .header-inner {
   margin-top: 30px;
-  text-align: center;
   line-height: 0;
   img {
     width: 100%;
@@ -10,9 +9,13 @@
 .inner-footer {
   display: flex;
   justify-content: space-between;
-  max-width: 1028px;
+  flex-wrap: wrap;
   .order {
-    padding-right: -15px;
+    max-width: 330px;
+    width: 100%;
+    min-height: 190px;
+    padding: 0 20px;
+    box-sizing: border-box;
     background: url('/src/img/mini.png') no-repeat;
     background-blend-mode: luminosity;
     background-color: rgba(124, 228, 214, .9);
@@ -26,20 +29,34 @@
       line-height: 30px;
       text-transform: uppercase;
       letter-spacing: 0.26px;
+      margin: 15px 0;
+      color: #2d2d2d;
     }
  }
   .telephone {
-    font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 2.25;
     font-weight: 500;
     letter-spacing: -0.1px;
     color: #212121;
+    // &__item {
+    //   white-space: nowrap;
+    // }
     img {
-      margin-right: 10px;
+      margin-right: 20px;
+      padding-left: 29px;
     }
     .pipeline {
       padding: 0 10px;
   }
  }
+}
+
+.order p + p {
+  color: #2d2d2d;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.19px;
 }
