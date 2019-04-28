@@ -32,6 +32,9 @@
       margin: 15px 0;
       color: #2d2d2d;
     }
+    .arrow-btn {
+      margin-top: 20px;
+    }
  }
   .telephone {
     font-family: 'Gotham Pro', Arial, Helvetica, sans-serif;
@@ -40,9 +43,10 @@
     font-weight: 500;
     letter-spacing: -0.1px;
     color: #212121;
-    // &__item {
-    //   white-space: nowrap;
-    // }
+    min-width: 335px;
+    &__item {
+      white-space: nowrap;
+    }
     img {
       margin-right: 20px;
       padding-left: 29px;
@@ -53,10 +57,24 @@
  }
 }
 
+.arrow-link {
+  position: absolute;
+  width: 78px;
+  height: 40px;
+}
+
 .order p + p {
   color: #2d2d2d;
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.19px;
+}
+
+.arrow-link {
+  transition-duration: 0.5s;
+  &:hover {
+    transform: scale(1.5);
+    margin-left: 20px;
+  }
 }
