@@ -34,10 +34,10 @@ body, ul, p {
 
 .arrow-btn::before {
   transform-origin: right bottom;
-  transform: rotate(45deg)
+  transform: rotate(45deg);
 }
 
 .arrow-btn::after {
   transform-origin: right top;
-  transform: rotate(-45deg)
+  transform: rotate(-45deg);
 }
