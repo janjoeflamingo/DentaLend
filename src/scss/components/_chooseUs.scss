@@ -26,15 +26,21 @@
 
 .g-block {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   position: relative;
-  margin: 0 85px;
+  margin-left: -10px;
   img {
     margin-top: 79px;
     margin-bottom: 34px;
   }
   &__item {
-    width: 195px;
+    width: 17%;
+    &:not(:first-child) {
+      margin-left: 30px;
+    }
+    &:first-child {
+      width: 19%;
+    }
   }
   h5 {
     color: #2d2d2d;
