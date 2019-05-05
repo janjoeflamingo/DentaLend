@@ -1,0 +1,42 @@
+.services {
+  max-width: 1028px;
+  margin-top: 200px;
+  position: relative;
+  img {
+    position: absolute;
+    top: -35px;
+    left: -164px;
+  }
+  h2 {
+    color: #2d2d2d;
+    font-family: "Gilroy";
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: -0.19px;
+    margin-left: 100px;
+    padding-top: 18px;
+  }
+}
+
+.service-block {
+  display: flex;
+  margin: 20px 0;
+  position: relative;
+  &__item {
+    display: flex;
+    position: relative;
+    img {
+      position: absolute;
+    }
+    h5 {
+      color: #2d2d2d;
+      font-family: "Gilroy";
+      font-size: 17px;
+      font-weight: 800;
+      line-height: 19.57px;
+      letter-spacing: 0.17px;
+    }
+  }
+}
