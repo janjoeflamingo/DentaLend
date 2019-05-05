@@ -1,0 +1,50 @@
+.dentistry {
+  max-width: 1028px;
+  min-height: 575px;
+  background-color: #f7f7f7;
+  h2 {
+    color: #2d2d2d;
+    font-family: "Gilroy";
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: -0.19px;
+    padding-top: 80px;
+    margin-left: 100px;
+    margin-bottom: 19px;
+  }
+  &__conteiner {
+    display: flex;
+    align-items: flex-start;
+    p {
+      color: #2d2d2d;
+      font-family: "Gotham Pro";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: -0.08px;
+      margin-left: 100px;
+    }
+    img {
+      position: relative;
+      top: 0;
+      margin: 0 90px 0 85px;
+    }
+  }
+  .dentistry__img {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 75px;
+    left: 30px;
+    :first-child {
+      margin-right: 24px;
+    }
+    img {
+      margin-right: 14px;
+      margin-bottom: 10px;
+    }
+  }
+}
