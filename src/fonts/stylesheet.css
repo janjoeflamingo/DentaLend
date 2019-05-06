@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/src/fonts/Gilroy/Gilroy-ExtraBold.eot');
+  src: local('/src/fonts/Gilroy/Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
+      url('/src/fonts/Gilroy/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('/src/fonts/Gilroy/Gilroy-ExtraBold.woff') format('woff'),
+      url('/src/fonts/Gilroy/Gilroy-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/src/fonts/Gilroy/Gilroy-Regular.eot');
+  src: local('/src/fonts/Gilroy/Gilroy Regular'), local('Gilroy-Regular'),
+      url('/src/fonts/Gilroy/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/src/fonts/Gilroy/Gilroy-Regular.woff') format('woff'),
+      url('/src/fonts/Gilroy/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('/src/fonts/GothamPro/GothamPro-Bold.eot');
+	src: local('/src/fonts/GothamPro/Gotham Pro Bold'), local('GothamPro-Bold'),
+		url('/src/fonts/GothamPro/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/src/fonts/GothamPro/GothamPro-Bold.woff') format('woff'),
+		url('/src/fonts/GothamPro/GothamPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('/src/fonts/GothamPro/GothamPro.eot');
+	src: local('/src/fonts/GothamPro/Gotham Pro'), local('GothamPro'),
+		url('/src/fonts/GothamPro/GothamPro.eot?#iefix') format('embedded-opentype'),
+		url('/src/fonts/GothamPro/GothamPro.woff') format('woff'),
+		url('/src/fonts/GothamPro/GothamPro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url('/src/fonts/FuturaPT/FuturaPT-Demi.eot');
+  src: local('/src/fonts/FuturaPT/Futura PT Demi'), local('FuturaPT-Demi'),
+      url('/src/fonts/FuturaPT/FuturaPT-Demi.eot?#iefix') format('embedded-opentype'),
+      url('/src/fonts/FuturaPT/FuturaPT-Demi.woff') format('woff'),
+      url('/src/fonts/FuturaPT/FuturaPT-Demi.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
