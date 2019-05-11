@@ -71,6 +71,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-left: 25px;
 }
 
 .menu {
@@ -84,6 +85,7 @@
     }
   }
   &__link {
+    position: relative;
     text-decoration: none;
     color: #606060;
     font-family: "Futura PT Demi", sans-serif;
@@ -91,8 +93,22 @@
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0.18px;
-    &:hover {
+    &:before {
+      content: '';
+      display: none;
+      position: absolute;
+      top: 10.5px;
+      left: -24px;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: #2d6b5f;
+    }
+    &:hover{
       color: #2d6b5f;
+      &:before {
+        display: block;
+      }
     }
   }
   &__img {
