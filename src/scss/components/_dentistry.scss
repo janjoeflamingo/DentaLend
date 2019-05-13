@@ -43,7 +43,11 @@
     :first-child {
       margin-right: 24px;
     }
+    :hover {
+      transform: scale(1.1);
+    }
     img {
+      transition: 0.5s;
       margin-right: 14px;
       margin-bottom: 10px;
     }

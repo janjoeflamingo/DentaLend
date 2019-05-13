@@ -2,10 +2,11 @@
   max-width: 1028px;
   margin-top: 200px;
   position: relative;
-  img {
+  .happy-boy {
     position: absolute;
     top: -35px;
     left: -164px;
+    z-index: -1;
   }
   h2 {
     color: #2d2d2d;
@@ -21,22 +22,29 @@
 }
 
 .service-block {
+  margin: 45px 0;
   display: flex;
-  margin: 20px 0;
-  position: relative;
+  flex-wrap: wrap;
+  margin-left: 100px;
   &__item {
-    display: flex;
-    position: relative;
-    img {
-      position: absolute;
+    width: 20%;
+    &:not(:first-child) {
+        margin-left: 50px;
+      }
+    &:last-child {
+      margin-left: 80px;
     }
+      img {
+        max-width: 100%;
+      }
     h5 {
       color: #2d2d2d;
       font-family: "Gilroy", sans-serif;
-      font-size: 17px;
-      font-weight: 800;
+      font-size: 15px;
+      font-weight: 900;
       line-height: 19.57px;
       letter-spacing: 0.17px;
+      margin-top: 10px;
     }
   }
 }

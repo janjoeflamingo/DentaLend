@@ -1,0 +1,64 @@
+.feedback {
+  position: relative;
+  max-width: 1028px;
+  min-height: 443px;
+  background: url('/src/img/feedback-bg.png') no-repeat right;
+  background-blend-mode: multiply;
+  background-color: rgba(124, 210, 193, 1);
+  padding-left: 100px;
+  margin-top: 140px;
+  h2 {
+    color: #2d2d2d;
+    font-family: "Gilroy", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: -0.19px;
+    text-transform: uppercase;
+    padding-top: 49px;
+    margin-bottom: 32px;
+  }
+  p {
+    color: #2d2d2d;
+    font-family: "Gotham Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.08px;
+  }
+  &__conteiner {
+    max-width: 484px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 44px;
+  }
+  &__input {
+    width: 232px;
+    height: 36px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding-left: 25px;
+    color: #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    &:hover {
+      border-color: #2d6b5f;
+    }
+    &::placeholder {
+      color: #2d6b5f;
+    }
+    &--submit {
+      margin-top: 20px;
+      width: 232px;
+      text-align: left;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .arrow-btn {
+        margin-right: 24px;
+      }
+    }
+  }
+}
